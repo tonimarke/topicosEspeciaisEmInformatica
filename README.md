@@ -2,8 +2,13 @@
 
 ## Meu primeiro projeto em ReactJS 
 
-## Iniciar projetos React:
+### Iniciar projetos React:
 
-~~~shell
+~~~ shell
 npx create-react-app NomeDoProjeto
+~~~
+
+### Rodar o projeto React:
+~~~ shell
+yarn start
 ~~~

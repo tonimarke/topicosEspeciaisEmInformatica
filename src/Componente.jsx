@@ -11,7 +11,7 @@ export default class Componente extends Component {
 
     // para receber os parametros do componente, utilizamos o props
     // não usamos o state, pois não alteramos o valor da variavel
-    
+
     // toda classe precisa de um constructor
     
     constructor(props){
@@ -25,13 +25,13 @@ export default class Componente extends Component {
                 Nosso primeiro programa em React
                 </h1>
                 <h2>
-                    Nome: ${this.props.nome}
+                    Nome: {this.props.nome}
                 </h2>
                 <h2>
-                    Idade: ${this.props.idade}
+                    Idade: {this.props.idade}
                 </h2>
                 <h2>
-                    Cidade: ${this.props.cidade}
+                    Cidade: {this.props.cidade}
                 </h2>
         </div>
             
