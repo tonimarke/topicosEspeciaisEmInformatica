@@ -17,27 +17,27 @@ export default function Exemplo2() {
             <form>
                 <div class="form-group">
                     <label> RA </label>
-                    <input  class="form-control" type="number" name="ra" value="{campos.ra}" onChange={}/>
+                    <input  class="form-control" type="number" name="ra" value="{campos.ra}" onChange={alteraCampo}/>
                 </div>
                 <div class="form-group">
                     <label> Nome </label>
-                    <input class="form-control" type="text" name="nome" value="{campos.nome}" onChange={}/>
+                    <input class="form-control" type="text" name="nome" value="{campos.nome}" onChange={alteraCampo}/>
                 </div>
                 <div class="form-group">
                     <label> Curso </label>
-                    <input class="form-control" type="text" name="curso" value="{campos.curso}" onChange={}/>
+                    <input class="form-control" type="text" name="curso" value="{campos.curso}" onChange={alteraCampo}/>
                 </div>
                 <div>
                     <label> Disciplina </label>
-                    <input class="form-control" type="text" name="disciplina" value="{campos.disciplina}" onChange={}/>
+                    <input class="form-control" type="text" name="disciplina" value="{campos.disciplina}" onChange={alteraCampo}/>
                 </div>
                 <div class="form-group">
                     <label> P1 </label>
-                    <input class="form-control" type="number" name="p1" value="{campos.p1}" onChange={}/>
+                    <input class="form-control" type="number" name="p1" value="{campos.p1}" onChange={alteraCampo}/>
                 </div>
                 <div class="form-group">
                     <label> P2 </label>
-                    <input class="form-control" type="number" name="p2" value="{campos.p2}" onChange={}/>
+                    <input class="form-control" type="number" name="p2" value="{campos.p2}" onChange={alteraCampo}/>
                 </div>
             </form>
         </div>
