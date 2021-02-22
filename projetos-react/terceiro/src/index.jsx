@@ -1,7 +1,12 @@
-import React from 'react';
+import React from 'react'
 import ReactDom from 'react-dom'
 import Exemplo1 from './Exemplo1'
+import Exemplo2 from './Exemplo2'
 
 ReactDom.render(
-    <Exemplo1/>, document.getElementById('root')
+    <React.Fragment>
+        <Exemplo1/>
+        <hr/>
+        <Exemplo2/>
+    </React.Fragment>, document.getElementById("root")
 )
